@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="16dp">
+
+            <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewRate"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="TextView"
+                        android:padding="16dp"
+                        android:textColor="@color/colorTextBlack"
+                        android:layout_marginStart="8dp"
+                        card_view:layout_constraintTop_toTopOf="parent"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintEnd_toEndOf="parent"/>
+
+                <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        card_view:layout_constraintTop_toBottomOf="@id/textViewRate"
+                        card_view:layout_constraintBottom_toBottomOf="parent">
+
+                    <View
+                            android:id="@+id/viewSeparator"
+                            android:layout_width="0dp"
+                            android:layout_height="0.3dp"
+                            android:background="@color/colorDivider"
+                            card_view:layout_constraintStart_toStartOf="parent"
+                            card_view:layout_constraintEnd_toEndOf="parent"/>
+                    <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:id="@+id/imageViewCalendar"
+                            card_view:layout_constraintTop_toTopOf="parent"
+                            card_view:layout_constraintBottom_toBottomOf="parent"
+                            card_view:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                            card_view:srcCompat="@drawable/ic_calendar"/>
+                    <TextView
+                            android:text="12 Oct 2018"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textViewCalendar"
+                            android:textSize="12sp"
+                            card_view:layout_constraintStart_toEndOf="@+id/imageViewCalendar"
+                            android:layout_marginStart="4dp"
+                            card_view:layout_constraintTop_toTopOf="parent"
+                            card_view:layout_constraintBottom_toBottomOf="parent"
+                            android:textColor="@color/browser_actions_text_color"/>
+                    <ImageView
+                            android:layout_width="14dp"
+                            android:layout_height="14dp" card_view:srcCompat="@drawable/ic_star"
+                            android:id="@+id/imageViewStar"
+                            card_view:layout_constraintTop_toBottomOf="@+id/viewSeparator"
+                            android:layout_marginEnd="8dp" card_view:layout_constraintEnd_toEndOf="parent"
+                            card_view:layout_constraintBottom_toBottomOf="parent"/>
+                    <TextView
+                            android:text="4,5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textViewRateStar"
+                            card_view:layout_constraintEnd_toStartOf="@+id/imageViewStar"
+                            android:layout_marginEnd="4dp"
+                            card_view:layout_constraintTop_toTopOf="parent"
+                            card_view:layout_constraintBottom_toBottomOf="parent" android:textSize="12sp"
+                            android:textColor="@color/browser_actions_text_color"/>
+                    <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp" card_view:srcCompat="@drawable/ic_person"
+                            android:id="@+id/imageViewProfile"
+                            android:layout_marginEnd="8dp"
+                            card_view:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginStart="8dp"
+                            card_view:layout_constraintBottom_toBottomOf="parent"
+                            card_view:layout_constraintTop_toBottomOf="@+id/viewSeparator"
+                            card_view:layout_constraintEnd_toEndOf="@+id/imageViewStar"/>
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

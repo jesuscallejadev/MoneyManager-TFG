@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+                android:id="@+id/editTextExpenseAmount"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_expenses_amount_edit_text_hint"
+                android:textColorHint="@color/colorTextBlack"
+                android:textSize="16dp"
+                android:textColor="@color/colorTextBlack"/>
+
+            <EditText
+                android:id="@+id/editTextExpenseMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_expenses_message_edit_text_hint"
+                android:textSize="16dp"
+                android:textColorHint="@color/colorTextBlack"
+                android:textColor="@color/colorTextBlack"/>
+
+            <Spinner
+                    android:id="@+id/spinner_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+            </Spinner>
+
+</LinearLayout>

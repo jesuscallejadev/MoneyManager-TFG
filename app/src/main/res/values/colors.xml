@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#387888</color>
+    <color name="colorPrimaryDark">#00675b</color>
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorAccent">#4797AB</color>
+    <color name="colorAccentDark">#387888</color>
+    <color name="colorSecondaryText">#FFFFFF</color>
+    <color name="colorTextBlack">#222</color>
+    <color name="colorIcon">#000000</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="buttonColour">#ffdd00</color>
+    <color name="colorGoogle">#DD4B39</color>
+    <color name="colorGoogleExtra">#B92D21</color>
+
+
+</resources>

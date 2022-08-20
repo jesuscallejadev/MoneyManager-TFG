@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106680115794",
+    "firebase_url": "https://tfg-app-49fa6.firebaseio.com",
+    "project_id": "tfg-app-49fa6",
+    "storage_bucket": "tfg-app-49fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106680115794:android:33274744908ec5a6",
+        "android_client_info": {
+          "package_name": "com.calleja.jesus.moneymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106680115794-noocsus1n68g6cra9s1qpeo46raufe4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.calleja.jesus.moneymanager",
+            "certificate_hash": "ef6fc98dec4ad7eab6b04f6026f47cb87b09da7f"
+          }
+        },
+        {
+          "client_id": "106680115794-3rgs5k1997h5q34r393tmir2j4r8evns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Wvy4f1Ch9pfLY2vxR0EdofKuCUbL8rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106680115794-3rgs5k1997h5q34r393tmir2j4r8evns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
